@@ -5,8 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+
 
 import db.DB;
 
@@ -14,7 +13,7 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		
 		Connection conn = null;
 		PreparedStatement st = null;
 		try {
